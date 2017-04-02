@@ -44,11 +44,24 @@ The next move Strategic Cell is defined by number placed left from current Strat
 The _Basic gamefield_ is represented by 9x9 grid of Strategic Cells spaced by one Cell from each other (total 29x29 Cells) in each Strategic Cell Tactical Cell are marked. It can be drawn by hand on half Folio format sheet (16.5x20.5(cm)) with square 0.5(cm) markup also known as "notebook page" in my country.
 Basic gamefield configuration expect players to use Tactical-like ruleset.
 You can see Basic gamefield on picture below.  
+![BASIC_GAMEFIELD_PIC](./Pics/Basic.png?raw=true "Basic gamefield")  
 All other gamefields are build upon layout of Basic gamefield.  
+Basic gamefield prototype can be found in  Fields/Basic.pdf file.  
 The _Numbered gamefield_ is a Basic gamefield where all Tactical Cells numbered by theirs position in Tactical gamefield and Strategic gamefield. It can be drawn in same place as Basic gamefield but need one more Cell size on each side (31x31 Cells).  
+![NUMBERED_GAMEFIELD_PIC](./Pics/Numbered.png?raw=true "Numbered gamefield")  
+Numbered gamefield prototype can be found in  Fields/Numbered.pdf file.  
 The _Mapped gamefield_ is a Numbered gamefield with mapping colums. Players are capable to play Map-like ruleset on this field. It can't be drawn in same space as Basic field. It's dimentions is 35x31 Cells and it still can be drawn on half Folio format sheet that rotated by 90 degrees.  
+![MAPPED_GAMEFIELD_PIC](./Pics/Mapped.png?raw=true "Mapped gamefield")  
+Mapped gamefield prototype can be found in  Fields/Mapped.pdf file.  
 The _Help field_ is represented by 11x15 Cell grid. It's purpose is to help players understand current game situation on Strategic level. It consists of 3x3 grid of Tactical cells spaced by one cell - _Tactical grid_, and additionl Tactical cell - _Strategic grid_. The purpose of Tactical grid is to indicate to which player which Tactical cell on Strategic field belongs. The purpose of Strategic grid is to indicate to which player which Strategic cell belongs.  
+![HELP_FIELD_PIC](./Pics/Help_field.png?raw=true "Help field")  
+Help field prototype can be found in  Fields/Help_field.pdf file.  
 The _Move field_  ia a plece where players may record their moves. The proposed structure of Move field is 6xN Cell field with 3 collums belongs to X player and 3 other belongs to O player. Each of three collums are marked with latter **S**, **T** or **O** witch stends for **S**trategic **T**actical and **O**perational cells numbers of move.  
+![MOVE_FIELD_PIC](./Pics/Move_field.png?raw=true "Move field")  
+Move field prototype can be found in  Fields/Move_field.pdf file.  
+The _Full field_ is the assembly of Mapped gamefield, Help field and sevral Move fields. It can be drawn in full Folio format sheet with square 0.5(cm) markup also known as "notebook sheet" in my country or printed on A4 paper from GameField.pdf file from this repository.  
+![FULL_FIELD_PIC](./Pics/GameField.png?raw=true "Full field")  
+Full field prototype can be found in  Fields/GameField.pdf file.  
 ## Origin
 The game ruleset and game fields was invented during last week of March 2017 by [Me (rus page)](https://vk.com/id29240951) (Demchenko Mikhail Alexeevich) and [my friend (rus page)](https://vk.com/bern_mark) (Shashkov Anton Igorevich). It was made because we were tired of relatively short games of Ultimate Tic-Tac-Toe and want more chalenge and use of strategic thinking in simple paper-and-pencil game.  
 ## Legals
