@@ -3,7 +3,7 @@
 STTT is a superset game of [Ultimate Tic-Tac-Toe](https://en.wikipedia.org/wiki/Ultimate_tic-tac-toe) same way as Ultimate Tic-Tac-Toe is a superset of [Ordinary Tic-Tac-Toe](https://en.wikipedia.org/wiki/Tic-tac-toe).
 It have similar set of rulse but it's more complicated. The purpose of the game is to develop the strategic thinking of players, same as Ultimate Tic-Tac-Toe develops tactical thinking.  
 ### The terms
-In the next section the terms _Ultimate_ and _Tactical_ are equivalents.  
+In the next sections the terms _Ultimate_ and _Tactical_ are equivalents.  
 The _Cell_ - the place to put X or O, also an _Operational Cell_.  
 The _Operational field_ - gamefield of Ordinary Tic-Tac-Toe, also a _Tactical Cell_ - 3x3 grid of Cells.  
 The _Tactical gamefield_ - gamefield of Tactical Tic-Tac-Toe, also a _Strategic Cell_ - 9x9 grid of Cells, 3x3 grid of Tactical Cells.  
@@ -66,5 +66,6 @@ Full field prototype can be found in  Fields/GameField.pdf file.
 The game ruleset and game fields was invented during last week of March 2017 by [Me (rus page)](https://vk.com/id29240951) (Demchenko Mikhail Alexeevich) and [my friend (rus page)](https://vk.com/bern_mark) (Shashkov Anton Igorevich). It was made because we were tired of relatively short games of Ultimate Tic-Tac-Toe and want more chalenge and use of strategic thinking in simple paper-and-pencil game.  
 ## Legals
 The **Game idea** represented by _rulesets_ (Tactical-like ruleset and Map-like ruleset) and _gamefields_ (Basic gamefield, Numbered gamefield, Mapped gamefield, Help field, Move field, Full field) is distributed worldwide under **CC-BY4.0** license.  
-LICENSE_PLACE_HOLDER  
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Starategic Tic-Tac-Toe</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/echo-Mike/STTT" property="cc:attributionName" rel="cc:attributionURL">Demchenko Mikhail Alexeevich and Shashkov Anton Igorevich</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.  
+ 
 The **Code** represented by all files in _Code_ directory is distributed worldwide under **MIT license**, see Code/LICENSE.md for full licens text.
